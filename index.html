@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Country Guide</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🌍 Country Guide</h1>
+
+<button onclick="toggleMode()">🌙 Mode</button>
+
+</header>
+
+<div class="container">
+
+<div class="login">
+
+<h2>Account</h2>
+
+<input id="username" placeholder="Username">
+<input id="password" type="password" placeholder="Password">
+
+<button onclick="signup()">Sign Up</button>
+<button onclick="login()">Sign In</button>
+
+</div>
+
+<div class="search">
+
+<h2>Search Country</h2>
+
+<input id="countryInput" placeholder="Enter country name">
+
+<button onclick="getCountry()">Search</button>
+
+</div>
+
+<div id="result"></div>
+
+<div class="favorites">
+
+<h2>⭐ Favorite Countries</h2>
+
+<ul id="favList"></ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
